@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+# Eval runs are local by default. Commit a run you want to show off with: git add -f results/<run>
+results/*
+!results/.gitkeep
